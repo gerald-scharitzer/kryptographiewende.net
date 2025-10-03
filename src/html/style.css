@@ -1,0 +1,9 @@
+body {
+	color: lightblue;
+	background-color: black;
+	font-family: dejavu sans, liberation sans, sans-serif;
+}
+
+h1, h2, h3 {
+	color: steelblue;
+}
