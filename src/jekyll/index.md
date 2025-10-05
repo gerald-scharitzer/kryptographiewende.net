@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Kryptographiewende
+lastUpdate: 2025-10-05
 ---
 # Die Kryptographiewende
 
@@ -12,3 +13,10 @@ Unsere Informationsgesellschaft basiert auf den Funktionen der Kryptographie zum
 - __Authentizität__: Wir wissen, mit wem wir kommunizieren.
 - __Integrität__: Was wir empfangen haben ist, was uns gesendet wurde.
 - __Verbindlichkeit__: Wir wissen, wer was kommuniziert hat.
+
+Diese Eigenschaften der Kommunikation machen sie vertrauenswürdig.
+
+Wesentliche Fähigkeiten unserer Gesellschaft basieren auf effizienter vertrauenswürdiger Kommunikation.
+
+- Transport Layer Security (TLS) generiert einen geheimen gemeinsamen Schlüssel und schafft damit Vertraulichkeit.
+- TLS-Server und -Clients authentisieren sich mit X.509 Public-Key-Zertifikaten und schaffen damit Authentizität.
