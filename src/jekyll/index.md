@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Kryptographiewende
-lastUpdate: 2025-10-06
+lastUpdate: 2025-10-07
 ---
 # Die Kryptographiewende
 
@@ -20,4 +20,5 @@ Wesentliche Fähigkeiten unserer Gesellschaft basieren auf effizienter vertrauen
 
 - Transport Layer Security (TLS) generiert einen geheimen gemeinsamen Schlüssel und schafft damit Vertraulichkeit.
 - TLS-Server und -Clients authentisieren sich mit X.509 Public-Key-Zertifikaten und schaffen damit Authentizität.
-- Kryptographische Hash-Funktionen prüfen und schaffen damit Integrität.
+- TLS-Cipher-Suites kommunizieren verschlüsselt mit symmetrischen Schlüsseln und erhalten damit effizient die Vertraulichkeit.
+- TLS-Cipher-Suites prüfen mit kryptographischen Hash-Funktionen und schaffen damit Integrität.

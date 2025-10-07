@@ -19,3 +19,7 @@ a:active {
 a:visited {
 	color: slateblue;
 }
+
+footer {
+	font-size: 80%;
+}
