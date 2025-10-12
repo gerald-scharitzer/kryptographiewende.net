@@ -8,16 +8,16 @@ h1, h2, h3, h4, a {
 	color: royalblue;
 }
 
-a:hover {
-	color: blue;
+a:visited {
+	color: slateblue;
 }
 
-a:active {
+a:active, a.current {
 	color: blueviolet;
 }
 
-a:visited {
-	color: slateblue;
+a:hover {
+	color: blue;
 }
 
 footer {
