@@ -16,10 +16,18 @@ Unsere Informationsgesellschaft basiert auf den Funktionen der Kryptographie zum
 
 Diese Eigenschaften der Kommunikation machen sie vertrauenswürdig.
 
+## Transport Layer Security (TLS)
+
 Wesentliche Fähigkeiten unserer Gesellschaft basieren auf effizienter vertrauenswürdiger Kommunikation.
 
 - [Transport Layer Security (TLS)](https://datatracker.ietf.org/doc/html/rfc8446#section-1) generiert einen geheimen gemeinsamen Schlüssel und schafft damit Vertraulichkeit.
-- TLS-Server und -Clients authentisieren sich mit X.509 Public-Key-Zertifikaten und schaffen damit Authentizität.
+- TLS-Server und -Clients [authentisieren](https://datatracker.ietf.org/doc/html/rfc8446#section-4.2.3) sich mit X.509 Public-Key-Zertifikaten und schaffen damit Authentizität.
 - [TLS-Cipher-Suites](https://datatracker.ietf.org/doc/html/rfc8446#section-4.1.2) kommunizieren verschlüsselt mit symmetrischen Schlüsseln und erhalten damit effizient die Vertraulichkeit.
 - TLS-Endpoints prüfen mit kryptographischen Hash-Funktionen und schaffen damit Integrität.
 - TLS-Endpoints prüfen Message-Authentication-Codes und schaffen damit Verbindlichkeit.
+
+## Kryptographische Funktionen
+
+Diese beruhen auf kryptographischen Funktionen.
+
+Kryptographische Hash-Funktionen signieren Nachrichten und prüfen Integrität.
