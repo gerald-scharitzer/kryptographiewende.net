@@ -24,10 +24,20 @@ Wesentliche Fähigkeiten unserer Gesellschaft basieren auf effizienter vertrauen
 - TLS-Server und -Clients [authentisieren](https://datatracker.ietf.org/doc/html/rfc8446#section-4.2.3) sich mit X.509 Public-Key-Zertifikaten und schaffen damit Authentizität.
 - [TLS-Cipher-Suites](https://datatracker.ietf.org/doc/html/rfc8446#section-4.1.2) kommunizieren verschlüsselt mit symmetrischen Schlüsseln und erhalten damit effizient die Vertraulichkeit.
 - TLS-Endpoints prüfen mit kryptographischen Hash-Funktionen und schaffen damit Integrität.
-- TLS-Endpoints prüfen Message-Authentication-Codes und schaffen damit Verbindlichkeit.
+- TLS-Endpoints prüfen Message-Authentication-Codes und schaffen damit Authentizität und Integrität.
 
 ## Kryptographische Funktionen
 
 Diese beruhen auf kryptographischen Funktionen.
 
 Kryptographische Hash-Funktionen signieren Nachrichten und prüfen Integrität.
+
+Symmetrische Kryptographie
+- verschlüsselt Daten effizient und schafft Vertraulichkeit,
+- authentisiert Daten mit Message-Authentication-Codes und schafft damit Authentizität und Integrität.
+
+Asymmetrische Kryptographie
+- verschlüsselt Daten, ohne einen geheimen gemeinsamen Schlüssel zu senden,
+- verschlüsselt Daten mit einem öffentlichen Schlüssel, sodass diese Daten nur mit dem passenden privaten Schlüssel wieder entschlüsselt werden können, und schafft damit Vertraulichkeit,
+- signiert Daten mit einem privaten Schlüssel, sodass diese Signatur von allen anderen mit dem passenden öffentlichen Schlüssel geprüft werden kann, und schafft damit Authentizität und Verbindlichkeit,
+- generiert temporäre Schlüssel, sodass selbst eine nachfolgende Veröffentlichung des privaten Schlüssels die Vertraulichkeit nicht reduziert.
