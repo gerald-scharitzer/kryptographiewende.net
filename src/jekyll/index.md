@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Kryptographiewende
-lastUpdate: 2025-10-12
+lastUpdate: 2025-10-16
 ---
 # Die Kryptographiewende
 
@@ -25,6 +25,8 @@ Wesentliche Fähigkeiten unserer Gesellschaft basieren auf effizienter vertrauen
 - [TLS-Cipher-Suites](https://datatracker.ietf.org/doc/html/rfc8446#section-4.1.2) kommunizieren verschlüsselt mit symmetrischen Schlüsseln und erhalten damit effizient die Vertraulichkeit.
 - TLS-Endpoints prüfen mit kryptographischen Hash-Funktionen und schaffen damit Integrität.
 - TLS-Endpoints prüfen Message-Authentication-Codes und schaffen damit Authentizität und Integrität.
+
+[Secure Shell (SSH)](https://en.wikipedia.org/wiki/Secure_Shell) basiert ebenfalls auf public key cryptography und key exchange.
 
 ## Kryptographische Funktionen
 
