@@ -26,6 +26,10 @@ Wesentliche Fähigkeiten unserer Gesellschaft basieren auf effizienter vertrauen
 - TLS-Endpoints prüfen mit kryptographischen Hash-Funktionen und schaffen damit Integrität.
 - TLS-Endpoints prüfen Message-Authentication-Codes und schaffen damit Authentizität und Integrität.
 
+## Application Layer Protocols (OSI 7)
+
+HTTPS, DNS over HTTPS, DNS over TLS, and STARTTLS all use TLS.
+
 [Secure Shell (SSH)](https://en.wikipedia.org/wiki/Secure_Shell) basiert ebenfalls auf public key cryptography und key exchange.
 
 ## Kryptographische Funktionen
