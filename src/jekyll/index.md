@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Kryptographiewende
-lastUpdate: 2025-10-16
+title: Home
+lastUpdate: 2025-10-18
 ---
 # Die Kryptographiewende
 
@@ -9,10 +9,10 @@ bringt den Wandel der grundlegenden Algorithmen vertrauensbasierter Systeme.
 
 Unsere Informationsgesellschaft basiert auf den Funktionen der Kryptographie zum Erhalt der folgenden [Eigenschaften](https://de.wikipedia.org/wiki/Informationssicherheit#Motivation_und_Ziele_der_Informationssicherheit).
 
-- __Vertraulichkeit__: Wir kommunizieren miteinander und nur wir wissen, was wir miteinander kommuniziert haben.
+- __Vertraulichkeit__: Wir kommunizieren miteinander und nur wir wissen, was wir einander gesendet haben.
 - __Authentizität__: Wir wissen, mit wem wir kommunizieren.
 - __Integrität__: Was wir empfangen haben ist, was uns gesendet wurde.
-- __Verbindlichkeit__: Wir wissen, wer was kommuniziert hat.
+- __Verbindlichkeit__: Wir wissen, wer was gesendet hat.
 
 Diese Eigenschaften der Kommunikation machen sie vertrauenswürdig.
 
@@ -28,13 +28,13 @@ Wesentliche Fähigkeiten unserer Gesellschaft basieren auf effizienter vertrauen
 
 ## Application Layer Protocols (OSI 7)
 
-HTTPS, DNS over HTTPS, DNS over TLS, and STARTTLS all use TLS.
+Vielfach verwendete gesicherte Anwendungsprotokolle wie HTTPS, DNS over HTTPS, DNS over TLS, QUIC, LDAPS, FTPS, SMTPS, IMAPS, POP3S und STARTTLS basieren alle auf TLS.
 
-[Secure Shell (SSH)](https://en.wikipedia.org/wiki/Secure_Shell) basiert ebenfalls auf public key cryptography und key exchange.
+[Secure Shell (SSH)](https://en.wikipedia.org/wiki/Secure_Shell) basiert ebenfalls auf asymmetrischer Kryptographie.
 
 ## Kryptographische Funktionen
 
-Diese beruhen auf kryptographischen Funktionen.
+Diese Eigenschaften und Protokolle beruhen auf kryptographischen Funktionen.
 
 Kryptographische Hash-Funktionen signieren Nachrichten und prüfen Integrität.
 

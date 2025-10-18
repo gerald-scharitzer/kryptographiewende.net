@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Kryptographiewende
-lastUpdate: 2025-10-11
+title: About
+lastUpdate: 2025-10-18
 ---
 # Die Kryptographiewende
 
