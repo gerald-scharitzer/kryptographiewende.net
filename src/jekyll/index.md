@@ -47,3 +47,12 @@ Asymmetrische Kryptographie
 - verschlüsselt Daten mit einem öffentlichen Schlüssel, sodass diese Daten nur mit dem passenden privaten Schlüssel wieder entschlüsselt werden können, und schafft damit Vertraulichkeit,
 - signiert Daten mit einem privaten Schlüssel, sodass diese Signatur von allen anderen mit dem passenden öffentlichen Schlüssel geprüft werden kann, und schafft damit Authentizität und Verbindlichkeit,
 - generiert temporäre Schlüssel, sodass selbst eine nachfolgende Veröffentlichung des privaten Schlüssels die Vertraulichkeit nicht reduziert.
+
+## Mathematische Konstrukte
+
+und der notwendige Aufwand zu ihrer Lösung bilden das Fundament kryptographischer Funktionen.
+
+- RSA basiert auf Primfaktorzerlegung.
+- DH und DSA basieren auf diskreten Logarithmen in ganzzahligen endlichen Körpern oder auf elliptischen Kurven.
+
+Shor's Algorithmus löst auf einem Quantencomputer sowohl Primfaktorzerlegung als auch diskrete Logarithmen in polynomialer Zeit.
