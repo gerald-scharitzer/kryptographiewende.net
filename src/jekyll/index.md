@@ -60,4 +60,4 @@ und der notwendige Aufwand zu ihrer Lösung bilden das Fundament kryptographisch
 - RSA basiert auf Primfaktorzerlegung.
 - DH und DSA basieren auf diskreten Logarithmen in ganzzahligen endlichen Körpern oder auf elliptischen Kurven.
 
-Shor's Algorithmus löst auf einem Quantencomputer sowohl Primfaktorzerlegung als auch diskrete Logarithmen in polynomialer Zeit.
+Shor's Algorithmus löst auf einem Quantencomputer sowohl Primfaktorzerlegung als auch diskrete Logarithmen in polynomialer statt sub-exponentieller Zeit.
