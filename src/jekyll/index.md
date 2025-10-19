@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-lastUpdate: 2025-10-18
+lastUpdate: 2025-10-19
 ---
 # Die Kryptographiewende
 
@@ -20,13 +20,15 @@ Diese Eigenschaften der Kommunikation machen sie vertrauenswürdig.
 
 Wesentliche Fähigkeiten unserer Gesellschaft basieren auf effizienter vertrauenswürdiger Kommunikation.
 
-- [Transport Layer Security (TLS)](https://datatracker.ietf.org/doc/html/rfc8446#section-1) generiert einen geheimen gemeinsamen Schlüssel und schafft damit Vertraulichkeit.
+- [Transport Layer Security (TLS)](https://datatracker.ietf.org/doc/html/rfc8446#section-1) generiert geheime gemeinsame Schlüssel und schafft damit Vertraulichkeit.
 - TLS-Server und -Clients [authentisieren](https://datatracker.ietf.org/doc/html/rfc8446#section-4.2.3) sich mit X.509 Public-Key-Zertifikaten und schaffen damit Authentizität.
-- [TLS-Cipher-Suites](https://datatracker.ietf.org/doc/html/rfc8446#section-4.1.2) kommunizieren verschlüsselt mit symmetrischen Schlüsseln und erhalten damit effizient die Vertraulichkeit.
+- [TLS-Cipher-Suites](https://datatracker.ietf.org/doc/html/rfc8446#section-4.1.2) verschlüsseln die Kommunikation mit symmetrischen Schlüsseln und erhalten damit effizient die Vertraulichkeit.
 - TLS-Endpoints prüfen
-  - Summen mit kryptographischen Hash-Funktionen und schaffen damit Integrität
-  - Message-Authentication-Codes und schaffen damit Authentizität und Integrität
+  - Summen mit kryptographischen Hash-Funktionen und schaffen damit Integrität,
+  - Message-Authentication-Codes und schaffen damit Authentizität und Integrität,
   - digitale Signaturen und schaffen damit Verbindlichkeit.
+
+Das TLS-Protokoll realisiert damit vertrauenswürdige Kommunikation.
 
 ## Application Layer Protocols (OSI 7)
 
@@ -36,7 +38,7 @@ Vielfach verwendete gesicherte Anwendungsprotokolle wie HTTPS, DNS over HTTPS, D
 
 ## Kryptographische Funktionen
 
-Diese Eigenschaften und Protokolle beruhen auf kryptographischen Funktionen.
+sind wesentliche Bestandteile der Protokolle zur vertrauenswürdigen Kommunikation.
 
 Kryptographische Hash-Funktionen signieren Nachrichten und prüfen Integrität.
 
@@ -45,8 +47,9 @@ Symmetrische Kryptographie
 - authentisiert Daten mit Message-Authentication-Codes und schafft damit Authentizität und Integrität.
 
 Asymmetrische Kryptographie
-- verschlüsselt Daten, ohne einen geheimen gemeinsamen Schlüssel zu senden,
-- verschlüsselt Daten mit einem öffentlichen Schlüssel, sodass diese Daten nur mit dem passenden privaten Schlüssel wieder entschlüsselt werden können, und schafft damit Vertraulichkeit,
+- verschlüsselt Daten
+  - ohne einen geheimen gemeinsamen Schlüssel zu senden,
+  - mit einem öffentlichen Schlüssel, sodass diese Daten nur mit dem passenden privaten Schlüssel wieder entschlüsselt werden können, und schafft damit Vertraulichkeit,
 - signiert Daten mit einem privaten Schlüssel, sodass diese Signatur von allen anderen mit dem passenden öffentlichen Schlüssel geprüft werden kann, und schafft damit Authentizität und Verbindlichkeit,
 - generiert temporäre Schlüssel, sodass selbst eine nachfolgende Veröffentlichung des privaten Schlüssels die Vertraulichkeit nicht reduziert.
 

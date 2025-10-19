@@ -2,6 +2,7 @@ html {
 	color: lightsteelblue;
 	background-color: black;
 	font-family: dejavu sans, liberation sans, sans-serif;
+	margin: 2em;
 }
 
 h1, h2, h3, h4, a {
@@ -22,4 +23,9 @@ a:hover {
 
 footer {
 	font-size: 80%;
+}
+
+li {
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
 }
