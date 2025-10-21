@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-lastUpdate: 2025-10-19
+lastUpdate: 2025-10-21
 ---
 # Die Kryptographiewende
 
@@ -65,3 +65,5 @@ Shor's Algorithmus löst auf einem Quantencomputer sowohl Primfaktorzerlegung al
 # Quantencomputer
 
 sind seit Jahren kommerziell verfügbar und die Quanten-Rechenleistung stieg in dieser Periode exponentiell.
+
+Das künftige Wachstum dieser Rechenleistung ist ungewiss, aber wenn man die Entwicklung der letzten Jahre in die Zukunft projeziert, dann erreichen wir in 5 bis 10 Jahren eine Rechenleistung, die das effiziente Entschlüsseln von aktuell als sicher eingestuften Schlüsseln wie RSA-2048 und ECC-256 ermöglicht.
