@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-lastUpdate: 2025-10-22
+lastUpdate: 2025-11-01
 ---
 # Die Kryptographiewende
 
@@ -62,10 +62,17 @@ und der notwendige Aufwand zu ihrer Lösung bilden das Fundament kryptographisch
 
 Shor's Algorithmus löst auf einem Quantencomputer sowohl Primfaktorzerlegung als auch diskrete Logarithmen in polynomialer statt sub-exponentieller Zeit.
 
-# Quantencomputer
+## Quantencomputer
 
 sind seit Jahren kommerziell verfügbar und die Quanten-Rechenleistung stieg in dieser Periode exponentiell.
 
 Das künftige Wachstum dieser Rechenleistung ist ungewiss, aber wenn man die Entwicklung der letzten Jahre in die Zukunft projeziert, dann erreichen wir in 10 Jahren eventuell eine Rechenleistung, die das effiziente Entschlüsseln von aktuell als sicher eingestuften Schlüsseln wie RSA-2048 und ECC-256 ermöglicht.
 
 Der Wegfall effektiver Kryptographie führt zum Verfehlen der Schutzziele Vertraulichkeit, Authentizität, Integrität und Verbindlichkeit.
+
+## Quantensichere Kryptographie
+
+Kryptographische Hash-Funktionen mit einem ausreichenden klassischen Sicherheitsabstand haben unter Anwendung der Grover- und BHT-Quantenalgorithmen eventuell keinen ausreichechenden Sicherheitsabstand mehr.
+
+Die Hash-Länge von 256 Bit hat unter Grover nur mehr eine effektive Länge von 128, und unter BHT ohne QRAM nur mehr rund 102 Bit.
+Wenn diese nicht ausreicht, dann kann man auf eine höhere Hash-Länge wie 384 Bit wechseln, welche unter Grover dann wieder effektiv 192, und unter BHT ohne QRAM effektiv rund 153 Bit lang sind.
