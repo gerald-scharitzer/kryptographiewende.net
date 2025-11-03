@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-lastUpdate: 2025-11-02
+lastUpdate: 2025-11-03
 ---
 # Die Kryptographiewende
 
@@ -73,3 +73,5 @@ Der Wegfall effektiver Kryptographie führt zum Verfehlen der Schutzziele Vertra
 ## Quantensichere Kryptographie
 
 [Kryptographische Hash-Funktionen](hash.html) mit ausreichendem klassischen und quanten-resistenten Sicherheitsabstand wirken den Beschleunigungen der Grover- und BHT-Quantenalgorithmen entgegen.
+
+Symmetrische Kryptographie wirkt mit größeren Schlüssellängen ebenso den Quantenalgorithmen entgegen.
