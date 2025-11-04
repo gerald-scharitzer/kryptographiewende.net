@@ -1,4 +1,6 @@
 - name: Home
   link: .
+- name: Kryptographische Hash-Funktionen
+  link: hash.html
 - name: About
   link: about.html

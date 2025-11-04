@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hash
+title: Kryptographische Hash-Funktionen @ kryptographiewende.net
 lastUpdate: 2025-11-02
 ---
 # Kryptographische Hash-Funktionen

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Home
-lastUpdate: 2025-11-03
+title: kryptographiewende.net
+lastUpdate: 2025-11-04
 ---
 # Die Kryptographiewende
 
@@ -75,3 +75,8 @@ Der Wegfall effektiver Kryptographie führt zum Verfehlen der Schutzziele Vertra
 [Kryptographische Hash-Funktionen](hash.html) mit ausreichendem klassischen und quanten-resistenten Sicherheitsabstand wirken den Beschleunigungen der Grover- und BHT-Quantenalgorithmen entgegen.
 
 Symmetrische Kryptographie wirkt mit größeren Schlüssellängen ebenso den Quantenalgorithmen entgegen.
+
+## Post-Quanten-Kryptographie (PQC)
+
+Asymmetrische Kryptographie wirkt mit größeren Schlüssellängen jedoch nicht hinreichend Shor's Algorithmus entgegen.
+Quantensichere asymmetrische Kryptographie erfordert Post-Quanten-Kryptographie.
