@@ -1,7 +1,7 @@
 ---
 layout: default
 title: kryptographiewende.net
-lastUpdate: 2025-11-04
+lastUpdate: 2025-11-08
 ---
 # Die Kryptographiewende
 
@@ -80,3 +80,15 @@ Symmetrische Kryptographie wirkt mit größeren Schlüssellängen ebenso den Qua
 
 Asymmetrische Kryptographie wirkt mit größeren Schlüssellängen jedoch nicht hinreichend Shor's Algorithmus entgegen.
 Quantensichere asymmetrische Kryptographie erfordert Post-Quanten-Kryptographie.
+
+[MLKEM](https://csrc.nist.gov/pubs/fips/203/final) ist ein quantensicherer Key-Encapsulation-Mechanism (KEM) und generiert gemeinsame geheime Schlüssel.
+
+[MLDSA](https://csrc.nist.gov/pubs/fips/204/final) ist ein quantensicherer gitterbasierter digitaler Signaturalgorithmus.
+
+[SLHDSA](https://csrc.nist.gov/pubs/fips/205/final), [LMS](https://datatracker.ietf.org/doc/html/rfc8708) und [XMSS](https://datatracker.ietf.org/doc/html/rfc8391) sind quantensichere hashbasierte digitale Signaturalgorithmen.
+
+## Implementierung
+
+Post-Quanten-Algorithmen werden von Libraries wie [OpenSSL](openssl.html) und Bouncy Castle implementiert.
+
+Die [PQC Capabilities Matrix (PQCCM)](https://pkic.org/pqccm/) des PKI Consortiums listet einige Implementierungen und deren Algorithmen auf.
