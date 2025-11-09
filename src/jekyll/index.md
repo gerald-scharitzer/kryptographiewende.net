@@ -1,7 +1,7 @@
 ---
 layout: default
 title: kryptographiewende.net
-lastUpdate: 2025-11-08
+lastUpdate: 2025-11-09
 ---
 # Die Kryptographiewende
 
@@ -62,7 +62,7 @@ und der notwendige Aufwand zu ihrer Lösung bilden das Fundament kryptographisch
 
 Shor's Algorithmus löst auf einem Quantencomputer sowohl Primfaktorzerlegung als auch diskrete Logarithmen in polynomialer statt sub-exponentieller Zeit.
 
-## Quantencomputer
+# Quantencomputer
 
 sind seit Jahren kommerziell verfügbar und die Quanten-Rechenleistung stieg in dieser Periode exponentiell.
 
@@ -71,6 +71,8 @@ Das künftige Wachstum dieser Rechenleistung ist ungewiss, aber wenn man die Ent
 Der Wegfall effektiver Kryptographie führt zum Verfehlen der Schutzziele Vertraulichkeit, Authentizität, Integrität und Verbindlichkeit.
 
 ## Quantensichere Kryptographie
+
+erfordert weder Quantenkryptographie noch Quantencomputer, sondern kann mit den selben Mitteln wie klassische Kryptographie realisiert werden.
 
 [Kryptographische Hash-Funktionen](hash.html) mit ausreichendem klassischen und quanten-resistenten Sicherheitsabstand wirken den Beschleunigungen der Grover- und BHT-Quantenalgorithmen entgegen.
 
@@ -92,3 +94,7 @@ Quantensichere asymmetrische Kryptographie erfordert Post-Quanten-Kryptographie.
 Post-Quanten-Algorithmen werden von Libraries wie [OpenSSL](openssl.html) und Bouncy Castle implementiert.
 
 Die [PQC Capabilities Matrix (PQCCM)](https://pkic.org/pqccm/) des PKI Consortiums listet einige Implementierungen und deren Algorithmen auf.
+
+## Intiative
+
+Die [Network and Information Security Cooperation Group (NIS CG)](https://digital-strategy.ec.europa.eu/en/policies/nis-cooperation-group) publizierte 2025-06 die [Roadmap for the Transition to Post-Quantum Cryptography](https://ec.europa.eu/newsroom/dae/redirection/document/117507).

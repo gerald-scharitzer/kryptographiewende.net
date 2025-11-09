@@ -2,7 +2,7 @@
   link: .
 - name: Kryptographische Hash-Funktionen
   link: hash.html
-- name: Web-Server
+- name: Web
   link: web.html
 - name: OpenSSL
   link: openssl.html
